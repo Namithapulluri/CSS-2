@@ -1,0 +1,23 @@
+ul{
+    list-style:decimal;
+    background-color: rgb(81, 210, 210);
+    height:130px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    color:white;
+}
+[data-category='Electronics']{
+    list-style:upper-alpha;
+
+
+}
+[data-available='true']{
+    background-color: green;
+}
+[data-available='false']{
+    background-color:red;
+}
+[data-price='high']{
+    font-weight:bold;
+}

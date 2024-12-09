@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.nav-bar{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+   
+}
+
+.img-1{
+    position: relative;
+    top:16rem;
+    left: 14rem;
+}
+.img-3{
+    position: relative;
+    top: 9rem;
+}
+.img-5{
+    position: relative;
+    top:16rem;
+    left: -14rem;
+}
